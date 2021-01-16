@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/resources/css/personal-portfolio.css">
+        <title>
+            Personal Portfolio
+        </title>
+    </head>
+    <body>
+<!--Navigation bar -->
+        <nav id=navbar class=nav>
+            <ul class=nav-link>
+                <li><a href=#about>About</a></li>
+                <li><a href=#projects>Projects</a></li>
+                <li><a href=#contact>Contact</a></li>
+            </ul>
+        </nav>
+<!--Welcome Section-->
+        <section id=welcome-section class=welcome-section>
+            <h1>Hi,</h1>
+            <h1>I'm <name>Kevin</name></h1>
+            <p>Front-end Software Developer</p>
+            <a href=#contact class=contact-button>Contact Me</a>
+            </button>
+        </section>
+<!--About Me Section-->
+        <section id=about class=about-section>
+            <h2>About Me</h2>
+            <p>I am a <text>Front-End Developer</text> based in <text>Los Angeles, California</text>. I have a strong passion for <text>code</text> and exceptional abilities in <text>communication</text>. I have experience using <text>HTML, CSS, and Javascript</text>.<p>
+            <a href="https://www.freecodecamp.org/fcc6f5a8a75-b8ba-44cd-90af-e62475a845df" target="_blank" id=profile-link> 
+            <img class=profile-picture src="/resources/images/profile-picture.jpg" alt="picture of myself">
+            </a>
+        </section>
+<!--Project Section-->
+        <section id=projects class=projects-section>
+            <h2 class=project-section-header>Projects</h2>
+            <div class=project-grid>
+                <a href="/Projects/Technical-Page.html" target=_blank class=project-tile id=JS-documentation>
+                    <img class=JS-documentation-picture src="/resources/images/JS-documentation.jpg" alt="picture of JS technical page">  
+                </a>
+            </div>  
+        </section>
+<!--Contact-->
+        <section id=contact class=contact-section>
+            <h2 class=contact-section-header>Contact Me!</h2>
+            <div class=contact-container>
+                <form id=contact-form>
+                    <input type=text id=name class=contact-input  placeholder="Your Name" required>
+                    <input type=text id=email class=contact-input placeholder="Email" required>
+                    <textarea id=textarea class=contact-input rows=10 cols=18 placeholder="Message" required></textarea>
+                    <button type=submit form=contact-form class=contact-input value=submit>Send</button>
+                </form>
+                <div class=contact-information>
+                    <p class=address><span>Los Angeles, California</span></p>
+                    <p class=phone><span>(626) 498-9536</span></p>
+                    <p class=email><span>kevinbello03@yahoo.com</span></p>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
